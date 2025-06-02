@@ -1,4 +1,4 @@
-# Linux Enhanced Forensic Collector
+# Linux Forensic Collector
 
 The script is designed to quietly and efficiently collect forensic artifacts from a Linux endpoint as part of a security investigation process.
 It performs a series of actions to gather essential system data such as running processes, open network connections, active services and daemons, system logs, user activity, and configuration files from critical directories. 
