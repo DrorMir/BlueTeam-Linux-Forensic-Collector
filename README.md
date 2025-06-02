@@ -1,15 +1,10 @@
 # Linux Enhanced Forensic Collector
 
-A comprehensive bash script for collecting forensic artifacts from Linux systems. This tool gathers a wide range of system information, logs, and artifacts, organizing them into a structured folder hierarchy for easier analysis.
-
-## Features
-
-- **Non-Interactive Execution**: Runs completely automatically without requiring user input
-- **Comprehensive Collection**: Gathers over 50 different types of forensic artifacts
-- **Structured Organization**: Organizes artifacts into logical categories and folders
-- **Detailed Logging**: Records the status of each collection operation
-- **Error Handling**: Continues execution even if individual collection steps fail
-- **Archive Creation**: Automatically compresses the collection for easier transfer
+The script is designed to quietly and efficiently collect forensic artifacts from a Linux endpoint as part of a security investigation process.
+It performs a series of actions to gather essential system data such as running processes, open network connections, active services and daemons, system logs, user activity, and configuration files from critical directories. 
+All the collected data is then packaged into a well-structured archive, ready for secure transfer or offline analysis. 
+The primary goal is to support rapid incident response, even in situations where direct access to the machine is limited, while giving security teams a comprehensive view of what’s happening on the system — without disrupting users or relying on third-party tools.
+It’s a lightweight, proactive, and precise solution that fits seamlessly into any Linux-based incident response workflow.
 
 ## Requirements
 
