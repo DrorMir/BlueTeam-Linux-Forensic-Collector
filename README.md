@@ -20,11 +20,11 @@ It’s a lightweight, proactive, and precise solution that fits seamlessly into 
 1. Download the script to the target system
 2. Make the script executable:
    ```bash
-   chmod +x LinuxForensicCollector.sh
+   chmod +x Forensic.sh
    ```
 3. Run the script with root privileges:
    ```bash
-   sudo ./LinuxForensicCollector.sh
+   sudo ./Forensic.sh
    ```
 
 ### Advanced Usage
@@ -32,7 +32,7 @@ It’s a lightweight, proactive, and precise solution that fits seamlessly into 
 You can specify a custom output path:
 
 ```bash
-sudo ./LinuxForensicCollector.sh /path/to/output/directory
+sudo ./Forensic.sh /path/to/output/directory
 ```
 
 ## Collected Artifacts
